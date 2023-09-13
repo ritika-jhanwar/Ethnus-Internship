@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-5 | HTML</title>
+</head>
+<body>
+    <h1 style="color: blue; text-align: center;">Registration Form</h2>
+        <table align="center" border="1" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width = "150"><label for="firstName"><center><b>First Name</b></center></label></td>
+                <td ><input type="text" id="firstName" name="firstName" size = "50" required></td>
+            </tr>
+            <tr>
+                <td><label for="lastName"><center><b>Last Name</b></center></label></td>
+                <td><input type="text" id="lastName" name="lastName" size = "50" required></td>
+            </tr>
+            <tr>
+                <td><label for="email"><center><b>Email</b></center></label></td>
+                <td><input type="email" id="email" name="email" size = "50" required></td>
+            </tr>
+            <tr>
+                <td><label for="password"><center><b>Password</b></center></label></td>
+                <td><input type="password" id="password" name="password" size = "50" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirmPassword"><center><b>Confirm Password</b></center></label></td>
+                <td><input type="password" id="confirmPassword" name="confirmPassword" size = "50" required></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="gender"><center><b>Gender</b></center></label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="age"><center><b>Age</b></center></label></td>
+                <td><input type="text" id="age" name="age" size = "50"></td>
+            </tr>
+            <tr>
+                <td><label for="Phone Number"><center><b>Phone Number</b></center></label></td>
+                <td><input type="text" id="Phone Number" name="Phone Number" size = "50"></td>
+            </tr>
+            <tr>
+                <td><label for="Address"><center><b>Address</b></center></label></td>
+                <td><textarea type="text" id="Address" name="Address" style = "height:100px"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="country"><center><b>Country</b></b></center></label></td>
+                <td>
+                    <select id="country" name="country">
+                        <option value="usa">Choose Your Country</option>
+                        <option value="usa">India</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">UK</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country"><center><b>Languages</b></b></center></label></td>
+                <td>
+                    <input type="checkbox" id="english" name="languages[]" value="English">
+                    <label for="english"> English </label>
+                    <input type="checkbox" id="spanish" name="languages[]" value="Spanish">
+                    <label for="spanish"> Spanish </label>
+                    <input type="checkbox" id="french" name="languages[]" value="French">
+                    <label for="french"> French</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox"/ checked> Hereby I declare all the given details are true 
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    Log in to <a href = https://ethnus.com/>Ethnus</a> website
+                </td>
+        </table>
+        <br>
+        <center><input type="submit" value="Register"></td></center>
+</body>
+</html>
