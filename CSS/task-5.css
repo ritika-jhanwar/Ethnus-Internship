@@ -1,0 +1,62 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(144, 25, 104);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(113, 15, 80);
+    font-size: 1rem;
+}
+
+.container{
+    height: 30rem;
+    width: 40rem;
+    background-color: rgb(204, 216, 70);
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.left{
+    padding-top: 3rem;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem
+}
+
+.text{
+    background-color: white;
+    height: 1.7rem;
+    width: 8rem;
+    padding-inline: 0.3rem;
+}
+
+.black-bar{
+    background-color: black;
+    height: 1.7rem;
+    width: 0.8rem;
+}
+
+.right{
+    margin-right: 0.8rem;
+}
+.para{
+    font-size: 1rem;
+}
+
+hr{
+    border-color: rgb(144, 25, 104);
+}
