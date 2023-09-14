@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contact-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+}
+
+.contact-table th {
+    background-color: rgb(8, 150, 101); 
+    color: #fff;
+    text-align: left;
+    padding: 15px;
+}
+
+
+.contact-table td {
+    padding: 13px;
+}
+
+.contact-table tbody tr:nth-child(odd) {
+    background-color: #dfdfdf;
+}

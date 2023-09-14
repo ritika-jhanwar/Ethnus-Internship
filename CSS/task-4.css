@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar a{
+    position: absolute;
+    left: -72px;
+    transition: 0.5s;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.sidebar a:hover{
+    left: 0px;
+}
+
+.home{
+    top: 20px;
+    background-color: rgb(24, 175, 112);
+}
+
+.java{
+    top: 100px;
+    background-color: blue;
+}
+
+.css{
+    top: 180px;
+    background-color: red;
+}
+
+.html{
+    top: 260px;
+    background-color: gray;
+}
+
+h1, p{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 100px;
+}

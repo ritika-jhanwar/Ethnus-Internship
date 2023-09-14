@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: lightblue;
+    height: 100%;
+    width: 15%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;  
+}
+
+.navbar li {
+    padding: 0px;
+    text-align: left;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: orange;
+    color: white;
+    height: 100%;
+}
+
+.hnavbar{
+    background-color: lightgray;
+    width: fit-content;
+}
+
+.hnavbar li{
+    display: inline-block;
+    border-right:1px blue solid;
+}
+
+.hnavbar a:hover{
+    background-color: gray;
+}
