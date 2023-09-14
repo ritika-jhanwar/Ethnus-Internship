@@ -1,0 +1,48 @@
+#tab1{
+    border-radius: 10px;
+    border-color: black;
+}
+
+#tab1 th, #tab1 td{
+    border-radius: 10px;
+    border-color: black;
+}
+
+#tab2{
+    border-color: white;
+    border-spacing: 10px;
+}
+
+#tab2 th, #tab2 td{
+    width: 70px;
+    border: 3px solid;
+    border-color: rgb(147, 190, 49);
+    height: 50px;
+}
+
+td#c1{
+    border-radius: 4px;
+}
+
+td#c2{
+    border-radius: 8px;
+}
+
+td#c3{
+    border-radius: 14px;
+}
+
+td#c5{
+    border-radius: 2px;
+}
+
+td#c6{
+    border-radius: 50%;
+}
+
+td#c8{
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
