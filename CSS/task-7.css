@@ -20,7 +20,7 @@ body{
     
 }
 .container-2{
-    height: 22rem;
+    height: 24rem;
     width: 32rem;
     background-color: #3c2f34;
     display: flex;
@@ -28,17 +28,26 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 0px;
 }
-
 
 label{
     padding-inline: 1rem;
     padding-block: 0.2rem;
 }
+
 input[type=text],
 input[type=email],
 input[type=tel],
 input[type=password]{
     width: 10rem;
     height: 1.2rem;
+}
+
+button{
+    height: 1.8rem;
+    width: 22rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    border-radius: 0.4rem;
 }
