@@ -14,8 +14,9 @@
             --primary-blue: #00E0FE;
             --tab-background:#383D4F;
             --background: rgba(147, 144, 144, 0.499);
-            --font-size: 16px;
+            --font-size: 14px;
         }
+        
         html,body{
             margin: 0;
             font-size: 1.20rem;
@@ -129,6 +130,15 @@
             margin: 0;
             position: relative;
             font-size: 0.8rem;
+        }
+        @media(max-width:450px){
+            .tab{
+                font-size: var(--font-size);
+            }
+            .tab-content a{
+                font-size: var(--font-size);
+                padding-block: 6px;
+            }
         }
     </style>
 </head>
