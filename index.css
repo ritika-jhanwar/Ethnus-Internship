@@ -130,3 +130,21 @@ footer p{
         padding-block: 6px;
     }
 }
+
+/*scrollbar*/
+        /* width */
+        body::-webkit-scrollbar {
+            width: 0.80em;
+        }
+        
+        /* Handle */
+        body::-webkit-scrollbar-thumb {
+            background: aliceblue;
+            width: 1.5em;
+            border-radius: 100vw;
+        }
+
+        /* Handle on hover */
+        body::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
