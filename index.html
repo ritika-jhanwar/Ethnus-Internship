@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+
 </head>
 <body>
     <nav>
@@ -47,5 +47,39 @@
     <footer>
         <p>Ritika Jhanwar 21BCE1035</p>
     </footer>
+    <script>
+        const allLinks=document.querySelectorAll(".tab");
+const allTabs=document.querySelectorAll(".tab-content");
+
+allLinks.forEach(elem => {
+    elem.addEventListener("click",function(){
+        const linkId=elem.id;
+        const hrefLinkClick=elem.href;
+
+        allLinks.forEach(link=>{
+            if(link.href==hrefLinkClick)
+            {
+                link.classList.add("active");
+            }
+            else{
+                link.classList.remove("active");
+            }
+        });
+
+        allTabs.forEach(tab=>{
+            if(tab.id.includes(linkId))
+            {
+                tab.classList.add("tab-content--active");
+                tab.style.display = "flex";
+            }
+            else{
+                tab.classList.remove("tab-content--active");
+                tab.style.display = "none";
+            }
+        });
+    });
+
+});
+    </script>
 </body>
 </html>
